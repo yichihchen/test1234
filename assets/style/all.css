@@ -2,7 +2,7 @@
   float: left; }
 
 .header-logo h1 a {
-  background-image: url(../images/logo.png) no-repeat;
+  background-image: url(app/assets/images/logo.png) no-repeat;
   text-indent: 101%;
   display: block; }
 
