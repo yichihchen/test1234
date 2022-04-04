@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -127,16 +126,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.header .logo a {
-  background-image: url(C:\Users\陈怡\Desktop\web-layout-training-gulp-master\app\assets\images\logo.png);
+.header {
+  height: 200px;
+  background-color: #aa0601; }
+
+.logo a {
+  background: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   text-indent: 101%;
   overflow: hidden;
   display: block;
   white-space: nowrap; }
-
-.header {
-  height: 200px;
-  background-color: #aa0601; }
 
 .header-logo h1 {
   float: left; }
