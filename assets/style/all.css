@@ -127,7 +127,7 @@ table {
   border-spacing: 0; }
 
 .header {
-  height: 200px;
+  height: 108px;
   background-color: #aa0601; }
 
 .logo a {
@@ -141,6 +141,17 @@ table {
 
 .header-logo h1 {
   float: left; }
+
+*,
+*::before,
+*,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  min-width: 100%;
+  height: auto; }
 
 .footer {
   height: 200px;
