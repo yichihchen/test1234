@@ -148,6 +148,11 @@ table {
 .header-logo h1 {
   float: left; }
 
+.d-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 *,
 *::before,
 *,
