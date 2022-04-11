@@ -130,6 +130,10 @@ table {
   height: 108px;
   background-color: #aa0601; }
 
+.header-logo {
+  padding-left: 88px;
+  padding-top: 30px; }
+
 .logo a {
   background: url(../images/logo.png);
   background-repeat: no-repeat;
@@ -137,7 +141,9 @@ table {
   text-indent: 101%;
   overflow: hidden;
   display: block;
-  white-space: nowrap; }
+  white-space: nowrap;
+  width: 5rem;
+  height: 3.04rem; }
 
 .header-logo h1 {
   float: left; }
