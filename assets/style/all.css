@@ -126,6 +126,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+*,
+*:before,
+*,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  min-width: 100%;
+  height: auto; }
+
 .header {
   height: 108px;
   background-color: #aa0601;
@@ -149,10 +160,26 @@ table {
   float: left; }
 
 .menu-item {
-  padding-left: 4rem; }
+  padding-left: 4rem;
+  font-size: 1.25rem;
+  width: 120px; }
 
 .menu-item a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: aqua; }
+
+*,
+*::before,
+*,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  min-width: 100%;
+  height: auto; }
 
 .d-f {
   display: -webkit-box;
@@ -176,9 +203,9 @@ table {
           align-items: center; }
 
 *,
-*::before,
+*:before,
 *,
-*::after {
+*:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
