@@ -132,13 +132,7 @@ table {
   color: white; }
 
 .header-logo {
-  padding: 30px 88px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  padding: 30px 88px; }
 
 .logo a {
   background: url(../images/logo.png);
@@ -154,10 +148,32 @@ table {
 .header-logo h1 {
   float: left; }
 
+.menu-item {
+  padding-left: 4rem; }
+
+.menu-item a {
+  text-decoration: none; }
+
 .d-f {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.jcsb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.align-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 *,
 *::before,
