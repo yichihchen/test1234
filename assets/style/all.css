@@ -128,7 +128,8 @@ table {
 
 .header {
   height: 108px;
-  background-color: #aa0601; }
+  background-color: #aa0601;
+  color: white; }
 
 .header-logo {
   padding: 30px 88px;
