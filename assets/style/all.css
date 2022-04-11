@@ -131,8 +131,7 @@ table {
   background-color: #aa0601; }
 
 .header-logo {
-  padding-left: 88px;
-  padding-top: 30px; }
+  padding: 30px 88px; }
 
 .logo a {
   background: url(../images/logo.png);
