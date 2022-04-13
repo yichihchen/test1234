@@ -128,13 +128,12 @@ table {
 
 *,
 *:before,
-*,
 *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
   height: auto; }
 
 .header {
@@ -172,14 +171,18 @@ img {
 
 *,
 *::before,
-*,
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
 img {
-  min-width: 100%;
-  height: auto; }
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto; }
 
 .d-f {
   display: -webkit-box;
@@ -201,16 +204,5 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-*,
-*:before,
-*,
-*:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-img {
-  min-width: 100%;
-  height: auto; }
 
 /*# sourceMappingURL=all.css.map */
