@@ -144,13 +144,13 @@ img {
   margin: 0 auto; }
 
 .header-logo {
-  padding: 30px 88px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
 .logo {
-  padding-right: 73.25rem; }
+  padding-right: 1140px;
+  padding-left: 5.5rem; }
 
 .logo a {
   background: url(../images/logo.png);
@@ -166,16 +166,20 @@ img {
 .header-logo h1 {
   float: left; }
 
+.header-menu {
+  text-align: center; }
+
 .menu-item {
-  padding-left: 4rem;
+  padding: 0 2rem;
   font-size: 1.25rem;
-  width: 120px; }
+  line-height: 1.875rem;
+  text-align: center; }
 
 .menu-item a {
   text-decoration: none;
   color: white;
   display: block;
-  background-color: aqua; }
+  padding: 10px 0px; }
 
 *,
 *::before,
