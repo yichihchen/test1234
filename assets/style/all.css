@@ -181,6 +181,12 @@ img {
   display: block;
   padding: 10px 0px; }
 
+.footer {
+  width: 1920px;
+  height: 333px;
+  background-color: #aa0601;
+  margin: 0 auto; }
+
 *,
 *::before,
 *::after {
