@@ -185,7 +185,22 @@ img {
   width: 1920px;
   height: 333px;
   background-color: #aa0601;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-left: 405px; }
+
+.footer-menu {
+  font-size: 1rem;
+  line-height: 1.5; }
+
+footer li a {
+  text-decoration: none;
+  color: white; }
+
+.media-icon {
+  padding-left: 390px; }
+
+.media-icon li {
+  padding-right: 2rem; }
 
 *,
 *::before,
@@ -222,5 +237,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.menu-list {
+  padding-right: 3rem; }
 
 /*# sourceMappingURL=all.css.map */
