@@ -190,7 +190,8 @@ img {
 
 .footer-menu {
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+  padding-bottom: 2.625rem; }
 
 footer li a {
   text-decoration: none;
@@ -208,6 +209,12 @@ footer li a {
 .contact {
   font-size: 2.25rem;
   line-height: 1.5; }
+
+.contact img {
+  padding-right: 1.25rem; }
+
+.contact-tele {
+  padding-bottom: 1rem; }
 
 *,
 *::before,
