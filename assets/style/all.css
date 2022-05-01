@@ -191,16 +191,18 @@ img {
 .footer-menu {
   font-size: 1rem;
   line-height: 1.5;
-  padding-bottom: 2.625rem; }
+  padding-bottom: 2rem;
+  text-align: center; }
 
 footer li a {
   text-decoration: none;
   color: white; }
 
 .menu-contact {
-  padding-bottom: 2.265rem; }
+  padding-top: 2.75rem; }
 
 .media-icon {
+  padding-top: 2rem;
   padding-left: 390px; }
 
 .media-icon li {
@@ -211,10 +213,21 @@ footer li a {
   line-height: 1.5; }
 
 .contact img {
-  padding-right: 1.25rem; }
+  padding-right: 1.25rem;
+  display: block; }
 
 .contact-tele {
   padding-bottom: 1rem; }
+
+.contact-email {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid white; }
+
+.contact p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  padding-top: 2rem; }
 
 *,
 *::before,
@@ -254,6 +267,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.justify-cneter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .menu-list {
   padding-right: 3rem; }
