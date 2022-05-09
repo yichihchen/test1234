@@ -281,7 +281,10 @@ body {
 .menu-list {
   padding-right: 3rem; }
 
-.background {
-  background-image: url(../images/index-background1.png); }
+.banner {
+  background-image: url(../images/index-background1.png);
+  width: 1920px;
+  height: 840px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=all.css.map */
