@@ -137,9 +137,6 @@ img {
   height: auto;
   vertical-align: middle; }
 
-body {
-  margin: 0 auto; }
-
 .d-f {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,8 +276,23 @@ footer li a {
 
 .banner {
   background-image: url(../images/index-background1.png);
+  background-repeat: no-repeat;
   width: 1920px;
   height: 840px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #650300; }
+
+h1 {
+  font-size: 36px;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 64px;
+  line-height: 1.5; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
 
 /*# sourceMappingURL=all.css.map */
