@@ -230,15 +230,32 @@ img {
   vertical-align: middle; }
 
 .header {
-  width: 1920px;
+  width: 100%;
   height: 108px;
   background-color: #aa0601;
   color: white;
   margin: 0 auto; }
 
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px; } }
+
+@media (max-width: 375px) {
+  .header {
+    max-width: 345px; } }
+
 .header-logo {
-  width: 1920px;
+  width: 100%;
   padding: 0 88px; }
+
+@media (max-width: 768px) {
+  .header-logo {
+    max-width: 720px;
+    padding: 0 30px; } }
+
+@media (max-width: 375px) {
+  .header-logo {
+    max-width: 345px; } }
 
 .logo a {
   background: url(../images/logo.png);
@@ -263,7 +280,7 @@ img {
   padding: 10px 0px; }
 
 .footer {
-  width: 1920px;
+  width: 100%;
   height: 332px;
   background-color: #aa0601;
   margin: 0 auto;
@@ -316,7 +333,7 @@ footer li a {
   background-image: url(../images/index-background1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   color: #650300; }
 
