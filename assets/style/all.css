@@ -210,14 +210,6 @@ body {
   margin: 0 auto;
   padding: 0 15px; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 720px; } }
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 345px; } }
-
 *,
 *:before,
 *:after {
@@ -232,8 +224,13 @@ img {
 .header {
   background-color: #aa0601;
   color: white;
-  margin: 0 auto;
-  padding: 0 88px; }
+  padding: 0 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 @media (max-width: 768px) {
   .header {
@@ -250,14 +247,10 @@ img {
             flex-direction: column; } }
 
 .header-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-column-gap: 64px;
      -moz-column-gap: 64px;
-          column-gap: 64px; }
+          column-gap: 64px;
+  width: 500px; }
 
 @media (max-width: 768px) {
   .header-menu {
@@ -266,32 +259,47 @@ img {
             column-gap: 40px; } }
 
 @media (max-width: 375px) {
+  .header-menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+.header-menu a {
+  text-decoration: none;
+  color: white; }
+
+.menu-item {
+  font-size: 20px;
+  line-height: 1.5; }
+
+@media (max-width: 375px) {
   .menu-item {
     width: 50%; } }
 
 .logo {
   padding: 30px 0; }
 
+@media (max-width: 375px) {
+  .logo {
+    width: 100%; } }
+
 .logo a {
-  background: url(../images/logo.png);
-  background-size: contain;
+  background: url(../images/logo.png) no-repeat center;
+  display: block;
   text-indent: 101%;
+  width: 80px;
+  height: 48px;
   overflow: hidden;
-  display: block;
   white-space: nowrap;
-  width: 5rem;
-  height: 3.04rem; }
+  background-size: contain; }
 
-.menu-item {
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  text-align: center; }
-
-.menu-item a {
-  text-decoration: none;
-  color: white;
-  display: block;
-  padding: 10px 0px; }
+@media (max-width: 375px) {
+  .logo a {
+    width: 48px;
+    height: 30px; } }
 
 .footer {
   max-width: 100%;
