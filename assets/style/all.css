@@ -232,12 +232,13 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media (max-width: 767px) {
+@media (max-width: 690px) {
   .header {
     padding: 0 39px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 345px) {
   .header {
+    padding: 0 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
