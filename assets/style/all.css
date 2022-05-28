@@ -310,103 +310,30 @@ img {
     height: 29px; } }
 
 .footer {
-  background-color: #aa0601; }
+  background-color: #aa0601;
+  color: white; }
 
-.footer-menu {
-  font-size: 16px;
-  line-height: 1.5; }
-
-footer li a {
+.footer a {
   text-decoration: none;
   color: white; }
 
-.menu-contact {
-  padding-top: 44px; }
-
-@media (max-width: 767px) {
-  .menu-contact {
-    display: none; } }
-
-.menu-list {
-  padding-right: 48px; }
-
-@media (max-width: 992px) {
-  .menu-list {
-    padding-right: 40px; } }
-
-.media-icon {
-  padding-top: 32px; }
-
-@media (max-width: 767px) {
-  .media-icon {
-    padding-top: 24px; } }
-
-.media-icon li {
-  padding-right: 32px; }
-
-@media (max-width: 768px) {
-  .media-icon li {
-    padding-right: 24px; } }
-
-.contact {
-  font-size: 36px;
-  line-height: 1.5; }
-
-@media (max-width: 992px) {
-  .contact {
-    font-size: 20px;
-    line-height: 1.5; } }
-
-@media (max-width: 767px) {
-  .contact {
-    font-size: 16px;
-    line-height: 1.875; } }
-
-@media (max-width: 767px) {
-  .contact {
-    padding-bottom: 25px; } }
-
-.contact-tele li {
-  padding-left: 20px; }
-
-.tele {
-  width: 36px;
-  height: 36px; }
-
-@media (max-width: 992px) {
-  .tele {
-    width: 24px;
-    height: 24px; } }
-
-.contact-email li {
-  padding-left: 20px; }
-
-.email {
-  width: 40px;
-  height: 32px; }
-
-@media (max-width: 992px) {
-  .email {
-    width: 24px;
-    height: 24px; } }
-
-.contact-tele {
-  padding-top: 36px;
-  padding-bottom: 16px; }
-
-.contact-email {
-  padding-bottom: 24px;
-  border-bottom: 1px solid white; }
-
-.private {
+.footer-menu-list {
   font-size: 16px;
   line-height: 1.5;
-  color: white;
-  padding-top: 32px;
-  padding-bottom: 39px; }
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px; }
 
-.private-list1 {
-  padding-right: 38.375rem; }
+.footer-menu-contact {
+  padding-top: 44px; }
+
+.contact-icon {
+  padding-top: 32px; }
+
+.contact-icon-list {
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px; }
 
 .banner {
   background-image: url(../images/index-background1.png);
