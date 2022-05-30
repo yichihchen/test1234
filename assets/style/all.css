@@ -202,6 +202,12 @@ img {
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif; }
 
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -555,6 +561,10 @@ img {
 .banner-content {
   height: 840px; }
 
+.specialty img {
+  width: 100px;
+  height: 100px; }
+
 h2 {
   font-size: 36px;
   line-height: 1.5; }
@@ -591,5 +601,37 @@ h3 {
   h3 {
     font-size: 24px;
     line-height: 1.5; } }
+
+h4 {
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #650300;
+  padding-top: 60px;
+  padding-bottom: 40px; }
+
+h5 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #650300;
+  padding-top: 16px;
+  font-weight: bold; }
+
+.specialty p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 8px; }
+
+.specialty {
+  background-color: #FBF2F2; }
+
+.specialty-content {
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  padding-bottom: 80px; }
+
+.specialty li {
+  width: 255px; }
 
 /*# sourceMappingURL=all.css.map */
