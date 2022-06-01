@@ -587,6 +587,27 @@ img {
   width: 100px;
   height: 100px; }
 
+.detail-person1 {
+  width: 635px; }
+
+.detail-person2 {
+  width: 635px; }
+
+.detail-person3 {
+  width: 635px; }
+
+.classic-content-ul img {
+  width: 44px;
+  height: 44px; }
+
+.classic-content-u2 img {
+  width: 44px;
+  height: 44px; }
+
+.classic-content-u3 img {
+  width: 48px;
+  height: 48px; }
+
 h2 {
   font-size: 36px;
   line-height: 1.5; }
@@ -662,7 +683,9 @@ h5 {
 h6 {
   color: #aa0601;
   font-style: italic;
-  font-weight: 900; }
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.5; }
 
 .specialty p {
   font-size: 16px;
@@ -710,5 +733,8 @@ h6 {
 @media (max-width: 375px) {
   .specialty-card {
     width: 85%; } }
+
+.classic-content-ul {
+  padding-left: 30px; }
 
 /*# sourceMappingURL=all.css.map */
