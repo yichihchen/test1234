@@ -221,6 +221,15 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+.flex-reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif; }
 
@@ -229,6 +238,12 @@ body {
 
 .text-left {
   text-align: left; }
+
+.pb32 {
+  padding-bottom: 32px; }
+
+.pb80 {
+  padding-bottom: 80px; }
 
 .container {
   max-width: 1140px;
@@ -588,13 +603,16 @@ img {
   height: 100px; }
 
 .detail-person1 {
-  width: 635px; }
+  width: 635px;
+  height: 320px; }
 
 .detail-person2 {
-  width: 635px; }
+  width: 635px;
+  height: 320px; }
 
 .detail-person3 {
-  width: 635px; }
+  width: 635px;
+  height: 320px; }
 
 .classic-content-ul img {
   width: 44px;
@@ -736,5 +754,20 @@ h6 {
 
 .classic-content-ul {
   padding-left: 30px; }
+
+.classic-content-ul li {
+  padding-left: 8px; }
+
+.classic-content-u2 {
+  padding-right: 30px; }
+
+.classic-content-u2 li {
+  padding-left: 10px; }
+
+.classic-content-u3 {
+  padding-left: 30px; }
+
+.classic-content-u3 li {
+  padding-left: 8px; }
 
 /*# sourceMappingURL=all.css.map */
