@@ -659,6 +659,11 @@ h5 {
   h5 {
     font-size: 16px; } }
 
+h6 {
+  color: #aa0601;
+  font-style: italic;
+  font-weight: 900; }
+
 .specialty p {
   font-size: 16px;
   line-height: 1.5;
