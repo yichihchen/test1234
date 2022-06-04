@@ -781,6 +781,11 @@ h7 {
   line-height: 1.5;
   font-weight: bold; }
 
+@media (max-width: 992px) {
+  h7 {
+    font-size: 32px;
+    line-height: 1.28; } }
+
 .specialty p {
   font-size: 16px;
   line-height: 1.5;
@@ -921,27 +926,98 @@ h7 {
   background-color: white;
   margin-right: 30px; }
 
+@media (max-width: 767px) {
+  .DoubleA {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px; } }
+
 .DoubleA img {
-  opacity: 0.6; }
+  opacity: 0.6;
+  width: 540px;
+  height: 455px; }
+
+@media (max-width: 992px) {
+  .DoubleA img {
+    width: 330px;
+    height: 278px; } }
+
+@media (max-width: 767px) {
+  .DoubleA img {
+    width: 100%;
+    height: 100%; } }
 
 .YOUTH {
   position: relative;
   background-color: white; }
 
+@media (max-width: 767px) {
+  .YOUTH {
+    width: 100%; } }
+
 .YOUTH img {
-  opacity: 0.6; }
+  opacity: 0.6;
+  width: 540px;
+  height: 455px; }
+
+@media (max-width: 992px) {
+  .YOUTH img {
+    width: 330px;
+    height: 278px; } }
+
+@media (max-width: 767px) {
+  .YOUTH img {
+    width: 100%;
+    height: 100%; } }
 
 .cobranded-word1 {
   position: absolute;
   top: 181px;
   left: 104px; }
 
+@media (max-width: 992px) {
+  .cobranded-word1 {
+    position: absolute;
+    top: 117.5px;
+    left: 91px; } }
+
+@media (max-width: 767px) {
+  .cobranded-word1 {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
+
 .cobranded-word2 {
   position: absolute;
   top: 181px;
   left: 152px; }
 
+@media (max-width: 992px) {
+  .cobranded-word2 {
+    position: absolute;
+    top: 117.5px;
+    left: 113px; } }
+
+@media (max-width: 767px) {
+  .cobranded-word2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
+
 .cobranded-products {
   padding-bottom: 80px; }
+
+@media (max-width: 992px) {
+  .cobranded-products {
+    padding-bottom: 56px; } }
+
+@media (max-width: 767px) {
+  .cobranded-products {
+    padding-bottom: 40px; } }
 
 /*# sourceMappingURL=all.css.map */
