@@ -584,7 +584,7 @@ img {
             flex-direction: column; } }
 
 .banner {
-  background-image: url(../images/index-background1.png);
+  background: url(../images/index-background1.png) center center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #650300; }
@@ -668,6 +668,14 @@ img {
   .classic-content-u3 img {
     width: 40px;
     height: 40px; } }
+
+.DoubleA img {
+  width: 540px;
+  height: 455px; }
+
+.YOUTH img {
+  width: 540px;
+  height: 455px; }
 
 h2 {
   font-size: 36px;
@@ -763,6 +771,15 @@ h6 {
   h6 {
     font-size: 28px;
     line-height: 2.57; } }
+
+.cobranded-glasess {
+  color: white; }
+
+h7 {
+  color: #aa0601;
+  font-size: 72px;
+  line-height: 1.5;
+  font-weight: bold; }
 
 .specialty p {
   font-size: 16px;
@@ -894,7 +911,37 @@ h6 {
 .classic-content-u3 li {
   padding-left: 8px; }
 
-.design {
-  background: url(); }
+.cobranded {
+  background: url(../images/bg.png) center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.DoubleA {
+  position: relative;
+  background-color: white;
+  margin-right: 30px; }
+
+.DoubleA img {
+  opacity: 0.6; }
+
+.YOUTH {
+  position: relative;
+  background-color: white; }
+
+.YOUTH img {
+  opacity: 0.6; }
+
+.cobranded-word1 {
+  position: absolute;
+  top: 181px;
+  left: 104px; }
+
+.cobranded-word2 {
+  position: absolute;
+  top: 181px;
+  left: 152px; }
+
+.cobranded-products {
+  padding-bottom: 80px; }
 
 /*# sourceMappingURL=all.css.map */
