@@ -777,14 +777,27 @@ h6 {
 
 h7 {
   color: #aa0601;
-  font-size: 72px;
+  font-size: 48px;
   line-height: 1.5;
   font-weight: bold; }
 
-@media (max-width: 992px) {
+@media (max-width: 1140px) {
   h7 {
     font-size: 32px;
     line-height: 1.28; } }
+
+.cclist1 {
+  font-size: 14px;
+  line-height: 1.5; }
+
+.cclist2 {
+  font-size: 16px;
+  line-height: 1.5; }
+
+.cclist3 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #707070; }
 
 .specialty p {
   font-size: 16px;
@@ -937,7 +950,7 @@ h7 {
   width: 540px;
   height: 455px; }
 
-@media (max-width: 992px) {
+@media (max-width: 1140px) {
   .DoubleA img {
     width: 330px;
     height: 278px; } }
@@ -960,7 +973,7 @@ h7 {
   width: 540px;
   height: 455px; }
 
-@media (max-width: 992px) {
+@media (max-width: 1140px) {
   .YOUTH img {
     width: 330px;
     height: 278px; } }
@@ -972,14 +985,20 @@ h7 {
 
 .cobranded-word1 {
   position: absolute;
-  top: 181px;
-  left: 104px; }
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 @media (max-width: 992px) {
   .cobranded-word1 {
     position: absolute;
-    top: 117.5px;
-    left: 91px; } }
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
 
 @media (max-width: 767px) {
   .cobranded-word1 {
@@ -991,14 +1010,19 @@ h7 {
 
 .cobranded-word2 {
   position: absolute;
-  top: 181px;
-  left: 152px; }
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 @media (max-width: 992px) {
   .cobranded-word2 {
-    position: absolute;
-    top: 117.5px;
-    left: 113px; } }
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
 
 @media (max-width: 767px) {
   .cobranded-word2 {
@@ -1019,5 +1043,42 @@ h7 {
 @media (max-width: 767px) {
   .cobranded-products {
     padding-bottom: 40px; } }
+
+.customer-card {
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px; }
+
+.customer-card1 {
+  height: 256px;
+  width: 255px; }
+
+.customer-card1 img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.customer-card2 {
+  height: 256px;
+  width: 255px; }
+
+.customer-card2 img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.customer-card3 {
+  height: 256px;
+  width: 255px; }
+
+.customer-card3 img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.customer-card4 {
+  height: 256px;
+  width: 255px; }
+
+.customer-card4 img {
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 /*# sourceMappingURL=all.css.map */
