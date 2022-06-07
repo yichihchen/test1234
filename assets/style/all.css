@@ -786,7 +786,7 @@ h7 {
     font-size: 32px;
     line-height: 1.28; } }
 
-.cclist1 {
+cd .cclist1 {
   font-size: 14px;
   line-height: 1.5; }
 
@@ -1080,5 +1080,12 @@ h7 {
 .customer-card4 img {
   -o-object-fit: cover;
      object-fit: cover; }
+
+.card-frame {
+  width: 255px;
+  height: 204px; }
+
+.cclist1 {
+  padding-bottom: 8px; }
 
 /*# sourceMappingURL=all.css.map */
