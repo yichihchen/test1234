@@ -239,6 +239,12 @@ body {
 .text-left {
   text-align: left; }
 
+.pt16 {
+  padding-top: 16px; }
+
+.pt8 {
+  padding-top: 8px; }
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -1091,9 +1097,11 @@ cd .cclist1 {
 
 .card-frame {
   width: 255px;
-  height: 204px; }
+  height: 204px;
+  position: relative; }
 
-.cclist1 {
-  padding-bottom: 8px; }
+.cclist3 {
+  position: absolute;
+  bottom: 10px; }
 
 /*# sourceMappingURL=all.css.map */
