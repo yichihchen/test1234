@@ -245,6 +245,16 @@ body {
 .pt8 {
   padding-top: 8px; }
 
+.pl16 {
+  padding-left: 16px; }
+
+.pb80 {
+  padding-bottom: 80px; }
+
+.box-shadow {
+  -webkit-box-shadow: 0px 2px 6px #cbcbcb;
+          box-shadow: 0px 2px 6px #cbcbcb; }
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -252,11 +262,13 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 720px; } }
+    max-width: 720px;
+    padding: 0 15px; } }
 
 @media (max-width: 375px) {
   .container {
-    max-width: 345px; } }
+    max-width: 345px;
+    padding: 0 15px; } }
 
 *,
 *:before,
@@ -1053,11 +1065,36 @@ cd .cclist1 {
 .customer-card {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
-          column-gap: 30px; }
+          column-gap: 30px;
+  background-color: red; }
+
+@media (max-width: 992px) {
+  .customer-card {
+    padding-bottom: 56px; } }
+
+@media (max-width: 1139px) {
+  .customer-card1-all {
+    width: 48%; } }
+
+@media (max-width: 1139px) {
+  .customer-card2-all {
+    width: 48%; } }
+
+@media (max-width: 1139px) {
+  .customer-card3-all {
+    width: 48%; } }
+
+@media (max-width: 1139px) {
+  .customer-card4-all {
+    width: 48%; } }
 
 .customer-card1 {
   height: 256px;
   width: 255px; }
+
+@media (max-width: 1139px) {
+  .customer-card1 {
+    width: 100%; } }
 
 .customer-card1 img {
   width: 100%;
@@ -1069,6 +1106,10 @@ cd .cclist1 {
   height: 256px;
   width: 255px; }
 
+@media (max-width: 1139px) {
+  .customer-card2 {
+    width: 100%; } }
+
 .customer-card2 img {
   width: 100%;
   height: 100%;
@@ -1078,6 +1119,10 @@ cd .cclist1 {
 .customer-card3 {
   height: 256px;
   width: 255px; }
+
+@media (max-width: 1139px) {
+  .customer-card3 {
+    width: 100%; } }
 
 .customer-card3 img {
   width: 100%;
@@ -1089,6 +1134,10 @@ cd .cclist1 {
   height: 256px;
   width: 255px; }
 
+@media (max-width: 1139px) {
+  .customer-card4 {
+    width: 100%; } }
+
 .customer-card4 img {
   width: 100%;
   height: 100%;
@@ -1099,6 +1148,10 @@ cd .cclist1 {
   width: 255px;
   height: 204px;
   position: relative; }
+
+@media (max-width: 1139px) {
+  .card-frame {
+    width: 100%; } }
 
 .cclist3 {
   position: absolute;
