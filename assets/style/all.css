@@ -848,6 +848,17 @@ h7 {
   font-size: 20px;
   line-height: 1.5; }
 
+@media (max-width: 992px) {
+  .contact-text {
+    font-size: 16px; } }
+
+.contact-us {
+  color: #000; }
+
+@media (max-width: 992px) {
+  .form-group {
+    font-size: 14px; } }
+
 .specialty p {
   font-size: 16px;
   line-height: 1.5;
@@ -1219,25 +1230,50 @@ h7 {
   width: 75%;
   margin: 0 auto; }
 
+@media (max-width: 992px) {
+  .contact-content {
+    padding-bottom: 56px; } }
+
+@media (max-width: 767px) {
+  .contact-content {
+    width: 100%;
+    padding-bottom: 40px; } }
+
 .user-text {
   width: 100%;
   border: 1px solid #000;
   height: 50px; }
+
+@media (max-width: 992px) {
+  .user-text {
+    height: 36px; } }
 
 .tele-text {
   width: 100%;
   border: 1px solid #000;
   height: 50px; }
 
+@media (max-width: 992px) {
+  .tele-text {
+    height: 36px; } }
+
 .email-text {
   width: 100%;
   border: 1px solid #000;
   height: 50px; }
 
+@media (max-width: 992px) {
+  .email-text {
+    height: 36px; } }
+
 .feedback {
   width: 100%;
   border: 1px solid #000;
   height: 136px; }
+
+@media (max-width: 992px) {
+  .feedback {
+    height: 100px; } }
 
 .checkbox {
   width: 16px;
@@ -1251,7 +1287,16 @@ h7 {
   color: white;
   border: none; }
 
+@media (max-width: 992px) {
+  .button {
+    height: 40px; } }
+
 .button:hover {
   background-color: #982a26; }
+
+@media (max-width: 992px) {
+  .form-check {
+    font-size: 14px;
+    padding-bottom: 20px; } }
 
 /*# sourceMappingURL=all.css.map */
