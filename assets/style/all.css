@@ -239,6 +239,12 @@ body {
 .text-left {
   text-align: left; }
 
+.verticle-middle {
+  vertical-align: middle; }
+
+.pt4 {
+  padding-top: 4px; }
+
 .pt16 {
   padding-top: 16px; }
 
@@ -247,6 +253,15 @@ body {
 
 .pl16 {
   padding-left: 16px; }
+
+.pb16 {
+  padding-bottom: 16px; }
+
+.pb20 {
+  padding-bottom: 20px; }
+
+.pb40 {
+  padding-bottom: 40px; }
 
 .pb80 {
   padding-bottom: 80px; }
@@ -804,18 +819,34 @@ h7 {
     font-size: 32px;
     line-height: 1.28; } }
 
-cd .cclist1 {
+.cclist1 {
   font-size: 14px;
   line-height: 1.5; }
+
+@media (max-width: 767px) {
+  .cclist1 {
+    padding-left: 24px; } }
 
 .cclist2 {
   font-size: 16px;
   line-height: 1.5; }
 
+@media (max-width: 767px) {
+  .cclist2 {
+    padding-left: 24px; } }
+
 .cclist3 {
   font-size: 14px;
   line-height: 1.5;
   color: #707070; }
+
+@media (max-width: 767px) {
+  .cclist3 {
+    padding-left: 24px; } }
+
+.contact-text {
+  font-size: 20px;
+  line-height: 1.5; }
 
 .specialty p {
   font-size: 16px;
@@ -1065,28 +1096,52 @@ cd .cclist1 {
 .customer-card {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
-          column-gap: 30px;
-  background-color: red; }
+          column-gap: 30px; }
 
-@media (max-width: 992px) {
+@media (max-width: 1139px) {
   .customer-card {
-    padding-bottom: 56px; } }
+    padding-bottom: 56px;
+    row-gap: 32px; } }
+
+@media (max-width: 767px) {
+  .customer-card {
+    padding-bottom: 40px;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+    row-gap: 16px; } }
 
 @media (max-width: 1139px) {
   .customer-card1-all {
-    width: 48%; } }
+    width: 47%; } }
+
+@media (max-width: 767px) {
+  .customer-card1-all {
+    width: 100%; } }
 
 @media (max-width: 1139px) {
   .customer-card2-all {
-    width: 48%; } }
+    width: 47%; } }
+
+@media (max-width: 767px) {
+  .customer-card2-all {
+    width: 100%; } }
 
 @media (max-width: 1139px) {
   .customer-card3-all {
-    width: 48%; } }
+    width: 47%; } }
+
+@media (max-width: 767px) {
+  .customer-card3-all {
+    width: 100%; } }
 
 @media (max-width: 1139px) {
   .customer-card4-all {
-    width: 48%; } }
+    width: 47%; } }
+
+@media (max-width: 767px) {
+  .customer-card4-all {
+    width: 100%; } }
 
 .customer-card1 {
   height: 256px;
@@ -1156,5 +1211,47 @@ cd .cclist1 {
 .cclist3 {
   position: absolute;
   bottom: 10px; }
+
+.contact {
+  background-color: #FBF2F2; }
+
+.contact-content {
+  width: 75%;
+  margin: 0 auto; }
+
+.user-text {
+  width: 100%;
+  border: 1px solid #000;
+  height: 50px; }
+
+.tele-text {
+  width: 100%;
+  border: 1px solid #000;
+  height: 50px; }
+
+.email-text {
+  width: 100%;
+  border: 1px solid #000;
+  height: 50px; }
+
+.feedback {
+  width: 100%;
+  border: 1px solid #000;
+  height: 136px; }
+
+.checkbox {
+  width: 16px;
+  height: 16px; }
+
+.button {
+  width: 45%;
+  height: 54px;
+  font-weight: bold;
+  background-color: #AA0601;
+  color: white;
+  border: none; }
+
+.button:hover {
+  background-color: #982a26; }
 
 /*# sourceMappingURL=all.css.map */
