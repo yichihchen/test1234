@@ -1,5 +1,376 @@
-.header header-logo h1 a {
-    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true);
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header {
+    background-color: #aa0601;
+    color: white;
+    padding: 30px 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:768px) {
+    .header {
+        padding: 30px 39px;
+    }
+}
+
+@media(max-width:767px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 0 0;
+    }
+
+}
+
+
+.header-menu {
+    column-gap: 64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:768px) {
+    .header-menu {
+        column-gap: 40px;
+    }
+}
+
+@media(max-width:767px) {
+    .header-menu {
+        width: 100%;
+        column-gap: 0px;
+        text-align: center;
+    }
+}
+
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+@media(max-width:767px) {
+    .menu-item {
+        width: 50%;
+        border: 1px solid white;
+    }
+}
+
+.logo {
+    width: 80px;
+    height: 48px;
+}
+
+@media(max-width:767px) {
+    .logo {
+        width: 48px;
+        height: 29px;
+        margin-bottom: 10px;
+    }
+}
+
+.logo a {
+    background: url(../images/logo.png)no-repeat center;
+    display: block;
+    width: 80px;
+    height: 48px;
     text-indent: 101%;
-    overflow:hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    background-size: contain;
+}
+
+@media(max-width:767px) {
+    .logo a {
+        width: 48px;
+        height: 29px;
+    }
+}
+
+//footer
+.footer {
+    background-color: #aa0601;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-upper {
+    border-bottom: 1px solid white;
+}
+
+.footer-menu-list {
+    font-size: 16px;
+    line-height: 1.5;
+    column-gap: 48px;
+}
+
+@media(max-width:992px) {
+    .footer-menu-list {
+        column-gap: 40px;
+    }
+}
+
+@media(max-width:767px) {
+    .footer-menu-list {
+        display: none;
+    }
+}
+
+.footer-menu-contact {
+    padding-top: 44px;
+    padding-bottom: 24px;
+}
+
+@media(max-width:992px) {
+    .footer-menu-contact {
+        padding-top: 32px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .footer-menu-contact {
+        padding-top: 25px;
+        padding-bottom: 24px;
+    }
+}
+
+.contact-icon {
+    padding-top: 32px;
+}
+
+@media(max-width:767px) {
+    .contact-icon {
+        padding-top: 24px;
+    }
+}
+
+.contact-icon-list {
+    column-gap: 32px;
+}
+
+@media(max-width:992px) {
+    .contact-icon-list {
+        column-gap: 24px;
+    }
+}
+
+@media(max-width:375px) {
+    .contact-icon-list {
+        column-gap: 8px;
+    }
+}
+
+.contact-icon-list img {
+    width: 48px;
+    height: 48px;
+}
+
+@media(max-width:992px) {
+    .contact-icon-list img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media(max-width:375px) {
+    .contact-icon-list img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.contact-telephone {
+    padding-top: 36px;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+@media(max-width:992px) {
+    .contact-telephone {
+        padding-top: 24px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-telephone {
+        padding-top: 0px;
+        font-size: 16px;
+        line-height: 1.875;
+    }
+}
+
+.contact-telephone-list {
+    padding-left: 22px;
+}
+
+@media(max-width:992px) {
+    .contact-telephone-list {
+        padding-left: 11px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-telephone-list {
+        padding-left: 6.5px;
+    }
+}
+
+.contact-telephone img {
+    width: 36px;
+    height: 36px;
+}
+
+@media(max-width:992px) {
+    .contact-telephone img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-telephone img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.contact-email {
+    padding-top: 16px;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+@media(max-width:992px) {
+    .contact-email {
+        padding-top: 12px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-email {
+        padding-top: 6px;
+        font-size: 16px;
+        line-height: 1.875;
+    }
+}
+
+.contact-email-list {
+    padding-left: 20px;
+}
+
+@media(max-width:992px) {
+    .contact-email-list {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-email-list {
+        padding-left: 6.65px;
+    }
+}
+
+.contact-email img {
+    width: 40px;
+    height: 32px;
+}
+
+@media(max-width:992px) {
+    .contact-email img {
+        width: 20px;
+        height: 16px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact-email img {
+        width: 16px;
+        height: 13px;
+    }
+}
+
+.copyright-list1 {
+    padding-top: 32px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media(max-width:992px) {
+    .copyright-list1 {
+        padding-top: 24px;
+    }
+}
+
+@media(max-width:767px) {
+    .copyright-list1 {
+        padding-top: 16px;
+        font-size: 14px;
+    }
+}
+
+.copyright-list2 {
+    padding-top: 33px;
+    column-gap: 48px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media(max-width:992px) {
+    .copyright-list2 {
+        padding-top: 25px;
+        column-gap: 24px;
+    }
+}
+
+@media(max-width:767px) {
+    .copyright-list2 {
+        padding-top: 8px;
+        column-gap: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.private {
+    padding-bottom: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:992px) {
+    .private {
+        padding-bottom: 32px;
+    }
+}
+
+@media(max-width:767px) {
+    .private {
+        padding-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+    }
 }
