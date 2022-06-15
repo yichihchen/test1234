@@ -5,22 +5,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
+  <title>
+    眼鏡形象網站首頁
+  </title>
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
 </head>
 
+
 <body>
-  <header class="header">
-    這是 header
-  </header>
+  <div class="header">
+    <h1 class="logo"><a href="index.html" title="首頁">logo</a></h1>
+    <ul class="header-menu align-center">
+      <li class="menu-item"><a href="#">系列鏡框</a></li>
+      <li class="menu-item"><a href="#">門市據點</a></li>
+      <li class="menu-item"><a href="#">部落格</a></li>
+      <li class="menu-item"><a href="#">常見問題</a></li>
+    </ul>
+  </div>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-upper space-between">
+          <div class="footer-menu-contact">
+            <ul class="footer-menu-list d-f">
+              <li><a href="#">首頁</a></li>
+              <li><a href="#">門市據點</a></li>
+              <li><a href="#">系列鏡框</a></li>
+              <li><a href="#">部落格</a></li>
+              <li><a href="#">常見問題</a></li>
+            </ul>
+            <ul class="contact-telephone d-f">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/804db84993b876420477b91e305170ae21e8d0f6/week3/icon-phone.svg"
+                alt="練絡電話">
+              <li class="contact-telephone-list"><a href="#">0800-000-000</a></li>
+            </ul>
+            <ul class="contact-email d-f">
+              <img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/804db84993b876420477b91e305170ae21e8d0f6/week3/icon-mail.svg"
+                alt="聯絡信箱">
+              <li class="contact-email-list"><a href="#">glasses@business.com</a></li>
+            </ul>
+          </div>
+          <div class="contact-icon">
+            <ul class="contact-icon-list d-f">
+              <li><img
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/804db84993b876420477b91e305170ae21e8d0f6/week3/icon-fb.svg"
+                  alt="臉書"></li>
+              <li><img
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/804db84993b876420477b91e305170ae21e8d0f6/week3/icon-ig.svg"
+                  alt="ig"></li>
+              <li><img
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/804db84993b876420477b91e305170ae21e8d0f6/week3/icon-line.svg"
+                  alt="line"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="private">
+          <ul class="copyright-list1">
+            <li>Copyright © 2020 Glasses.All rights reserved.</li>
+          </ul>
+          <ul class="copyright-list2 d-f">
+            <li>隱私權政策</li>
+            <li>服務條款</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
